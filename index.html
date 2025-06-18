@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/x-icon" href="Joshslabs-removebg-preview.png" />
+  <title>Josh's Web Design Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #00ffcc;
+    }
+
+    nav {
+      background: #222;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #ccc;
+      margin: 10px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00ffcc;
+    }
+
+    a {
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .project {
+      background: #1a1a1a;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 255, 204, 0.1);
+    }
+
+    .project h2 {
+      color: #00ffcc;
+    }
+
+    .project a {
+      color: #00ffcc;
+      text-decoration: underline;
+    }
+
+    .pricing {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .price-box {
+      background: #1f1f1f;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #333;
+    }
+
+    .price-box h3 {
+      margin-bottom: 10px;
+      color: #00ffcc;
+    }
+
+    .price-box ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .price-box li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1a1a1a;
+      border-top: 1px solid #333;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        margin: 8px 0;
+      }
+
+      .container {
+        padding: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Josh's Labs</h1>
+    <p>Cover Letter Websites & Personal Branding</p>
+  </header>
+
+  <nav>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="portfolio">
+    <h2>Samples</h2>
+    <div class="project">
+      <h2>Student Cover Letter Site</h2>
+      <p><a href="https://joshslabsinc.github.io/Josh-s-Labs/" target="_blank">Click me!!</a></p>
+    </div>
+    <div class="project">
+      <h2>Catalogue Site</h2>
+      <p><a href="https://joshslabsinc.github.io/Josh-s_Labs/" target="_blank">Click me!!</a></p>
+    </div>
+  </div>
+
+  <div class="container" id="pricing">
+    <h2>Pricing & Add-ons</h2>
+    <div class="pricing">
+      <div class="price-box">
+        <h3>Starter Site - $100 TTD</h3>
+        <p>1-page custom site with cover letter and contact section. Mobile-friendly and hosted for free on GitHub.</p>
+      </div>
+      <div class="price-box">
+        <h3>Enhanced Profile - $150 TTD</h3>
+        <p>Add resume, portfolio links, social buttons and simple animations. (2-3 pages)</p>
+      </div>
+      <div class="price-box">
+        <h3>Custom Branding - $200+ TTD</h3>
+        <p>Enhanced Profile, Unique color scheme, custom logo, animations and visual effects.</p>
+      </div>
+      <div class="price-box">
+        <h3>Optional Add-ons</h3>
+        <ul>
+          <li>✔️ Rush Delivery (1-2 days) +$50</li>
+          <li>✔️ Extra Pages: +$30/page</li>
+          <li>✔️ Extra Unique pages +$80/page</li>
+          <li>✔️ Logo Creation (Basic): +$60</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Joshcory05@gmail.com" target="_blank">Joshcory05@gmail.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/18684945350" target="_blank">+1 (868) 494-5350</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/joshslabs/#" target="_blank">@Josh' Labs</a></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Josh's Labs. All rights reserved.</p>
+  </footer>
+</body>
+<script>
+  console.log("Josh's Labs est 2024");
+</script>
+</html>
